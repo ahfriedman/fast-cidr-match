@@ -1,6 +1,6 @@
 {
   "name": "fast-cidr-match",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fast tool for checking if an IP is contained within a list of CIDRs/IPs",
   "main": "index.js",
   "homepage": "https://github.com/ahfriedman/fast-cidr-match",
