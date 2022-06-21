@@ -87,7 +87,7 @@ const SubnetMaskTable = {
           const full = [...Array(32 - ((curr.Decimal >>>0).toString(2)).length).keys()].map(x => '0').join('') + (curr.Decimal >>>0).toString(2); 
           for(let i = 0; i < curr.Slash; i++)
           {
-              const value = full.at(i);
+              const value = full.charAt(i);
   
               const isLast = i == (curr.Slash - 1);
   
@@ -122,7 +122,7 @@ FastCIDRMatcher.prototype.containsIP = function(IP) {
   
       for(let i = 0; i < 32; i++)
       {
-          const opt = full.at(i); 
+          const opt = full.charAt(i); 
           if(opt in temp) temp = temp[opt];
           else return false; 
   
