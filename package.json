@@ -1,0 +1,18 @@
+{
+  "name": "fast-cidr-match",
+  "version": "1.0.0",
+  "description": "Fast tool for checking if an IP is contained within a list of CIDRs/IPs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Friedman (https://ahfriedman.com)",
+  "keywords": [
+    "cidr",
+    "ip",
+    "address",
+    "subnet",
+    "ipv4"
+  ],
+  "license": "MIT"
+}
