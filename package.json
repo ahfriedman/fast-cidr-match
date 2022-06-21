@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Fast tool for checking if an IP is contained within a list of CIDRs/IPs",
   "main": "index.js",
+  "homepage": "https://github.com/ahfriedman/fast-cidr-match",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ahfriedman/fast-cidr-match"
+    "url": "https://github.com/ahfriedman/fast-cidr-match.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
