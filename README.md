@@ -13,7 +13,7 @@ npm i fast-cidr-match
 ### Create a FastCIDRMatcher
 
 ```js
-const { FastCIDRMatcher } = require(...);
+const FastCIDRMatcher = require('fast-cidr-match');
 
 //Constructor takes an array of CIDRs/IPv4s
 const fastCidrMatcher = new FastCIDRMatcher(['192.168.0.0/16', '172.16.32,80', '10.0.0.0/8']]); 
