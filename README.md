@@ -1,6 +1,6 @@
 # Fast CIDR Matcher
 
-This library determines if a given IPv4 is contained within a list if IP addresses and subnets in approximatley O(log n) time--which is much faster than many existing libraries. 
+This library determines if a given IPv4 is contained within a list if IP addresses and subnets in approximately O(log n) time--which is much faster than many existing libraries. 
 
 ## Installation 
 
