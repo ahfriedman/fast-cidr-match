@@ -26,6 +26,12 @@ fastCidrMatcher.containsIP('192.168.1.1') //True
 fastCidrMatcher.containsIP('this is not an ip') //False
 ```
 
+### CompressDatabase
+*Note: This feature is somewhat experimental and currently prevents additional data from being added to the match list. May cause a slight performance degredation (< 500ms in 1,000,000 IP benchmark) but makes database approximatley 20% smaller in benchmark.*
+```js
+fastCidrMatcher.compressDatabase() 
+```
+
 
 ## Benchmark 
 
